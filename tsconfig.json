@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    // "composite": true,
+    "target": "esnext",
+    "isolatedModules": true,
+    "module": "esnext",
+    "moduleResolution": "nodenext",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true
+  },
+  "include": ["./**/*.ts", "./env.d.ts", "./package.json"],
+  "exclude": ["node_modules"]
+}
