@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 URL="https://github.com/josefaidt/avm/releases/latest/download/avm"
 
@@ -9,7 +9,7 @@ chmod +x /usr/local/bin/avm
 if ! command -v bun &> /dev/null
 then
   echo "bun could not be found and is required to run this script, install? [y/n]"
-  read -r install
+  read install
   if [ "$install" = "y" ]
   then
     # https://bun.sh/
