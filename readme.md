@@ -3,7 +3,7 @@
 "amplify version manager"/nvm for Amplify CLI
 
 ```console
-curl -fsSL https://github.com/josefaidt/avm/raw/main/install.sh | sh
+curl -fsSL https://github.com/josefaidt/avm/raw/main/install.sh | bash
 ```
 
 ```console

@@ -8,8 +8,9 @@ chmod +x /usr/local/bin/avm
 
 if ! command -v bun &> /dev/null
 then
-  echo "bun could not be found and is required to run this script, install? [y/n]"
-  read install
+  bunmsg="bun could not be found and is required to run this script, install? [Y/n] "
+  read -e -p "$bunmsg" install
+  install=${install:-y}
   if [ "$install" = "y" ]
   then
     # https://bun.sh/
